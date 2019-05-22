@@ -1,0 +1,9 @@
+
+
+.CharactersListPage-item {
+    display: flex;
+    align-items: center;
+}
+.CharactersListPage-item img {
+    width: 200px;
+}

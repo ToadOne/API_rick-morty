@@ -1,0 +1,33 @@
+.Header {
+    display: flex;
+
+    align-items: center;
+    padding: 15px;
+    color: #ffffff;
+    background-color: deepskyblue;
+    
+}
+
+.Header > h1 {
+    font-size: 2vw;
+    margin: 0;
+}
+
+.Header > nav {
+    display: flex;
+
+    justify-content: end;
+    margin-left: auto;
+}
+
+.Header > nav > a {
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 4px;
+    color: inherit;
+}
+
+.Header > nav > a:hover {
+    background-color: #ffffff;
+    color: deepskyblue;
+}
